@@ -83,7 +83,7 @@ export default function Home() {
             resize-none overflow-y-auto text-black bg-gray-300 rounded-l outline-none"
             onKeyDown={Submit} />
             <button
-              onClick="{callGetResponse}"
+              onClick={callGetResponse}
               className="w-[15%] bg-blue-500 px-4 py-2 rounded-r"
             >
               send
