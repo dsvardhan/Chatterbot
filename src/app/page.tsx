@@ -18,7 +18,7 @@ export default function Home() {
     setTheInput("");
     console.log("Calling OpenAI...");
 
-    const response = await fetch("/api", {
+    const response = await fetch("https://chatterbot-f29s.vercel.app/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
